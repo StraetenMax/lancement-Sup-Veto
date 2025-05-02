@@ -1,8 +1,8 @@
 {
-  "name": "jpo29032025",
+  "name": "lancement_rncp_supveto",
   "version": "1.0.0",
   "description": "Email template build process",
-  "main": "gulpfile.js",
+  "main": "gulpfile.mjs",
   "scripts": {
     "build": "gulp",
     "dev": "gulp watch",

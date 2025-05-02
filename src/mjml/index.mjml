@@ -1,0 +1,48 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>Lancement RNCP Sup-Véto</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap"></mj-font>
+    <mj-font name="fontAwesome" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <mj-raw>
+      <meta charset="UTF-8">
+      <meta name='color-scheme' content='light'/>
+      <meta name='supported-color-schemes' content='light'/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+    </mj-raw>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Arial, Helvetica,sans serif"/>
+      <mj-class name="T36-900" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="36px" line-height="36px" font-weight="900"/>
+      <mj-class name="T24-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="700"/>
+      <mj-class name="T24-300" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="300"/>
+      <mj-class name="T16-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700"/>
+      <mj-class name="T16-500" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="500"/>
+      <mj-class name="T16-400" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="400"/>
+      <mj-class name="T13-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="17px" font-weight="700"/>
+      <mj-class name="T13-400" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="17px" font-weight="400"/>
+      <mj-class name="T10-300" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="10px" line-height="12px" font-weight="300"/>
+      <mj-class name="cT1" color="#1a1a1a"/>
+      <mj-class name="cT0" color="#4d4d4d"/>
+      <mj-class name="cB" color="#ffffff"/>
+      <mj-class name="cVF" color="#098855"/>
+      <mj-class name="bgVF" background-color="#098855"/>
+      <mj-class name="cVC" color="#37A943"/>
+      <mj-class name="bgVC" background-color="#37A943"/>
+      <mj-class name="cVTC" color="#98C98B"/>
+      <mj-class name="bgVC" background-color="#98C98B"/>
+      <mj-class name="cO" color="#EA831E"/>
+      <mj-class name="bgO" background-color="#EA831E"/>
+    </mj-attributes>
+    <mj-breakpoint width="480px"></mj-breakpoint>
+  </mj-head>
+  <mj-body background-color="#f2f2f2" width="600px">
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text align="center"><a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
