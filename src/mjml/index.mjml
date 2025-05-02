@@ -26,7 +26,8 @@
       <mj-class name="T10-300" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="10px" line-height="12px" font-weight="300"/>
       <mj-class name="cT1" color="#1a1a1a"/>
       <mj-class name="cT0" color="#4d4d4d"/>
-      <mj-class name="cB" color="#ffffff"/>
+      <mj-class name="cW" color="#ffffff"/>
+      <mj-class name="bgW" background-color="#ffffff"/>
       <mj-class name="cVF" color="#098855"/>
       <mj-class name="bgVF" background-color="#098855"/>
       <mj-class name="cVC" color="#37A943"/>
@@ -42,6 +43,55 @@
     <mj-section padding="0">
       <mj-column>
         <mj-text align="center"><a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper mj-class="bgW" padding="10px">
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="T24-300 cT1">Nouvelle Image de marque</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column width="35%">
+          <mj-image padding="0" width="480px" src="https://placehold.co/480x580"/>
+        </mj-column>
+        <mj-column width="65%">
+          <mj-text mj-class="T16-400 cT0">Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus.</mj-text>
+          <mj-text mj-class="T16-400 cT0">Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus.</mj-text>
+          <mj-text mj-class="T16-400 cT0">Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat.</mj-text>
+          <mj-button>télécharger la plaquette</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper mj-class="bgW" padding="10px">
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="T24-300 cT1">Nouveau site web</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column width="35%">
+          <mj-image padding="0" width="480px" src="https://placehold.co/480"/>
+        </mj-column>
+        <mj-column width="65%">
+          <mj-text mj-class="T16-400 cT0">Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. </mj-text>
+          <mj-text mj-class="T16-400 cT0">Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. </mj-text>
+          <mj-text mj-class="T16-400 cT0">Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat.</mj-text>
+          <mj-button>Découvrir le site web</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image width="120px" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg"/>
+        <0></0>
+        <mj-text mj-class="">contact@supveto.fr</mj-text>
+        <mj-social-element></mj-social-element>
+        <mj-social-element></mj-social-element>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text mj-class="T16-700 cT0">Grand partenaire de</mj-text>
+        <mj-image width="120px" src="https://i.ibb.co/VYq28039/logo-Trophees-1.png"/>
       </mj-column>
     </mj-section>
   </mj-body>
