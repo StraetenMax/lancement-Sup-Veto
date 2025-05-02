@@ -47,12 +47,21 @@
     </mj-section>
     <mj-wrapper mj-class="bgW" padding="10px">
       <mj-section padding="0">
-        <mj-column>
-          <mj-text mj-class="T24-300 cT1">Nouvelle Image de marque</mj-text>
+        <mj-column width="35%">
+          <mj-image padding="0" width="480px" src="https://placehold.co/480x480"></mj-image>
+        </mj-column>
+        <mj-column width="65%">
+          <mj-text mj-class="T16-400 cT0">Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus.</mj-text>
+          <mj-text mj-class="T16-400 cT0">Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus.</mj-text>
+          <mj-text mj-class="T16-400 cT0">Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat.</mj-text>
+          <mj-button>rncp</mj-button>
         </mj-column>
       </mj-section>
+    </mj-wrapper>
+    <mj-wrapper mj-class="bgW" padding="10px">
       <mj-section padding="0">
         <mj-column width="35%">
+          <mj-text padding="0" padding-bottom="10px" align="center" mj-class="T24-300 cT1">Nouvelle Image de marque</mj-text>
           <mj-image padding="0" width="480px" src="https://placehold.co/480x580"/>
         </mj-column>
         <mj-column width="65%">
@@ -86,12 +95,21 @@
         <mj-image width="120px" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg"/>
         <0></0>
         <mj-text mj-class="">contact@supveto.fr</mj-text>
-        <mj-social-element></mj-social-element>
-        <mj-social-element></mj-social-element>
+        <mj-social>
+          <mj-social-element src=""></mj-social-element>
+          <mj-social-element src=""></mj-social-element>
+        </mj-social>
       </mj-column>
       <mj-column width="50%">
         <mj-text mj-class="T16-700 cT0">Grand partenaire de</mj-text>
         <mj-image width="120px" src="https://i.ibb.co/VYq28039/logo-Trophees-1.png"/>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="30px">
+      <mj-column width="320px">
+        <mj-text padding="0" align="center" mj-class="cT0 T10-300"><a style="color:#4d4d4d;font-size:10px;font-weight:500" href="{{ mirror}}">Voir la version en ligne</a>           </mj-text>
+        <mj-text padding="0" align="center" mj-class="cT0 T10-300">Pour être sûr(e) de recevoir nos communications, ajoutez <a style="text-decoration:none;color:#4d4d4d;" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans votre carnet d'adresses.</mj-text>
+        <mj-text padding="0" align="center" mj-class="cT0 T10-300"><a style="color:#4d4d4d;font-size:10px;font-weight:500;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
