@@ -45,6 +45,14 @@
         <mj-text align="center"><a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
     </mj-section>
+    <mj-section padding="0" mj-class="bgW">
+      <mj-column width="100%" padding-top="10px" padding-bottom="20px">
+        <mj-image width="140px" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg"/>
+      </mj-column>
+      <mj-column width="100%" background-color="#1a1a1a" padding="5px 25px">
+        <mj-text padding="0" mj-class="T16-500 cW">Newsletter Mai 2025</mj-text>
+      </mj-column>
+    </mj-section>
     <mj-section padding="0">
       <mj-column>
         <mj-image padding="0" width="600px" src="https://placehold.co/600x250"></mj-image>
@@ -102,7 +110,6 @@
     <mj-section>
       <mj-column width="50%">
         <mj-image width="120px" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg"/>
-        <0></0>
         <mj-text mj-class="T13-400">contact@supveto.fr</mj-text>
         <mj-social>
           <mj-social-element src=""></mj-social-element>
