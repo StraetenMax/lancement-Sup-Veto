@@ -45,7 +45,7 @@
         <mj-text align="center"><a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="0" mj-class="bgW">
+    <mj-section padding="0">
       <mj-column width="100%" padding-top="10px" padding-bottom="20px">
         <mj-image width="140px" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg"/>
       </mj-column>
@@ -75,7 +75,7 @@
     <mj-wrapper mj-class="bgW" padding="20px 15px">
       <mj-section padding="0" direction="rtl">
         <mj-column width="60%" padding="10px" direction="rtl">
-          <mj-image padding="0" width="600px" src="https://placehold.co/600x300"/>
+          <mj-image padding="0" width="600px" border="0.5px solid #cecece" src="https://i.ibb.co/qYgvCYDk/auxiliaire-Plaquette.png" alt="Auxiliaire spécialisé vétérinaire extrait de la nouvelle plaquette sup-véto"/>
         </mj-column>
         <mj-column width="40%" padding="10px" vertical-align="bottom">
           <mj-text padding="0" align="center" mj-class="T24-700 cVF">Création d'une nouvelle identité pour Sup-Véto</mj-text>
