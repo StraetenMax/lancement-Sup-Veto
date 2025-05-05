@@ -33,7 +33,7 @@
       <mj-class name="cVC" color="#37A943"/>
       <mj-class name="bgVC" background-color="#37A943"/>
       <mj-class name="cVTC" color="#98C98B"/>
-      <mj-class name="bgVC" background-color="#98C98B"/>
+      <mj-class name="bgVTC" background-color="#98C98B"/>
       <mj-class name="cO" color="#EA831E"/>
       <mj-class name="bgO" background-color="#EA831E"/>
     </mj-attributes>
@@ -55,20 +55,20 @@
     </mj-section>
     <mj-section padding="0">
       <mj-column>
-        <mj-image padding="0" width="600px" src="https://placehold.co/600x250"></mj-image>
+        <mj-image padding="0" width="600px" src="https://i.ibb.co/zh1P6qn7/asv-Supveto-Site.png"></mj-image>
       </mj-column>
     </mj-section>
     <mj-wrapper mj-class="bgW" padding="20px 15px">
       <mj-section padding="0">
         <mj-column width="40%" padding="10px">
-          <mj-image padding="0" width="480px" src="https://placehold.co/480x480"></mj-image>
+          <mj-image padding="0" width="480px" src="https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png"></mj-image>
         </mj-column>
         <mj-column width="60%" padding="10px">
-          <mj-text padding="5px 0" mj-class="T24-700 cT1">Auxiliaire de Service Vétérinaire devient Auxiliaire spécialisé vétérinaire</mj-text>
+          <mj-text padding="5px 0" mj-class="T24-700 cVF">Auxiliaire de Service Vétérinaire devient Auxiliaire spécialisé vétérinaire</mj-text>
           <mj-text padding="5px 0" mj-class="T16-400 cT0">Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus.</mj-text>
           <mj-text padding="5px 0" mj-class="T16-400 cT0">Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus.</mj-text>
           <mj-text padding="5px 0" mj-class="T16-400 cT0">Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat.</mj-text>
-          <mj-button border-radius="50px" href="#">rncp&nbsp;&nbsp;&#x2192;</mj-button>
+          <mj-button border-radius="50px" href="#">En savoir plus sur RNCP&nbsp;&nbsp;&#x2192;</mj-button>
         </mj-column>
       </mj-section>
     </mj-wrapper>
@@ -78,7 +78,7 @@
           <mj-image padding="0" width="600px" src="https://placehold.co/600x300"/>
         </mj-column>
         <mj-column width="40%" padding="10px" vertical-align="bottom">
-          <mj-text padding="0" align="center" mj-class="T24-700 cT1">Création d'une nouvelle identité</mj-text>
+          <mj-text padding="0" align="center" mj-class="T24-700 cVF">Création d'une nouvelle identité pour Sup-Véto</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="0" direction="rtl">
@@ -86,10 +86,10 @@
           <mj-text padding="5px 0" mj-class="T16-400 cT0">Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus.</mj-text>
           <mj-text padding="5px 0" mj-class="T16-400 cT0">Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus.</mj-text>
           <mj-text padding="5px 0" mj-class="T16-400 cT0">Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat.</mj-text>
-          <mj-button border-radius="50px" href="#" target="_blank">télécharger la plaquette</mj-button>
+          <mj-button border-radius="50px" href="#" target="_blank">Télécharger la plaquette</mj-button>
         </mj-column>
         <mj-column width="40%" padding="10px">
-          <mj-image padding="0" width="600px" src="https://placehold.co/480x240"/>
+          <mj-image padding="0" width="600px" src="https://i.ibb.co/qLSy9htZ/plaquette-Supveto.png"/>
         </mj-column>
       </mj-section>
     </mj-wrapper>
@@ -109,17 +109,23 @@
     </mj-wrapper>
     <mj-section>
       <mj-column width="50%">
-        <mj-image width="120px" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg"/>
-        <mj-text mj-class="T13-400">contact@supveto.fr</mj-text>
+        <mj-image padding="0 25px" width="120px" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg"/>
+        <mj-text align="center" padding="0 25px" mj-class="T13-400">contact@supveto.fr</mj-text>
         <mj-social>
           <mj-social-element src=""></mj-social-element>
           <mj-social-element src=""></mj-social-element>
         </mj-social>
       </mj-column>
-      <mj-column width="50%">
-        <mj-text mj-class="T16-700 cT0">Grand partenaire de</mj-text>
-        <mj-image width="100px" src="https://i.ibb.co/VYq28039/logo-Trophees-1.png"/>
-      </mj-column>
+      <mj-group>
+        <mj-column vertical-align="middle">
+          <mj-text align="right" padding="0 5px" mj-class="T13-400 cT0">Sup-Véto</mj-text>
+          <mj-text align="right" padding="0 5px" mj-class="T13-400 cT0">Grand</mj-text>
+          <mj-text align="right" padding="0 5px" mj-class="T13-400 cT0">Partenaire</mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle">
+          <mj-image align="left" padding="0" width="60px" src="https://i.ibb.co/VYq28039/logo-Trophees-1.png"/>
+        </mj-column>
+      </mj-group>
     </mj-section>
     <mj-section padding="30px">
       <mj-column width="320px">
